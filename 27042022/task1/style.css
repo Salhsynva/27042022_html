@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+    line-height: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 12vh;
+    position: relative;
+}
+
+.header .logo{
+    width: 20%;
+    height: 5vh;
+    background-color: grey;
+    display: inline-block;
+}
+
+.header .future-banner{
+    width: 35%;
+    height: 5vh;
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+
+}
+
+.header .navbar{
+    width: 100%;
+    height: 5vh;
+    background-color: grey;
+}
+
+main{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50%;
+    height: 75vh;
+    display: inline-block;
+}
+
+.left .box1{
+    width: 98%;
+    height: 23vh;
+    background-color: grey;
+    margin-bottom: 3vh;
+}
+
+.center{
+    width: 24%;
+    height: 75vh;
+    display: inline-block;
+}
+
+.center .sign-up{
+    width: 100%;
+    height: 30vh;
+    background-color: grey;
+}
+
+.center .insurance{
+    width: 100%;
+    height: 43vh;
+    background-color: grey;
+    margin-top: 2vh;
+}
+
+.right{
+    width: 24%;
+    height: 75vh;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.right .description{
+    width: 100%;
+    height: 15vh;
+    background-color: grey;
+    margin-bottom: 3vh;
+}
+
+.right .blog-post{
+    width: 100%;
+    height: 30vh;
+    background-color: grey;
+    margin-bottom: 3vh;
+}
+
+.right .forum-post{
+    width: 100%;
+    height: 24vh;
+    background-color: grey;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    background-color: grey;
+    margin-top: 2vh;
+}
